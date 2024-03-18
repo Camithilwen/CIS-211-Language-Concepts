@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Geometry2
+comment1.params=
+comment1.target=void\ main()
+comment2.params=a\ b
+comment2.target=double\ hypotenuse(double,\ double)
+numComments=3

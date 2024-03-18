@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ColorRectangle
+comment1.params=x\ y\ w\ h
+comment1.target=ColorRectangle(int,\ int,\ int,\ int)
+comment2.params=c
+comment2.target=void\ setColor(java.awt.Color)
+comment3.params=
+comment3.target=java.awt.Color\ getColor()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=other
+comment5.target=boolean\ equals(ColorRectangle)
+numComments=6

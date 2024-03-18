@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Multadd
+comment0.text=\r\n\ Chapter\ 6\ was\ called\ Methods\ and\ Testing.\r\n\ It\ was\ all\ about\ writing\ methods\ and\ testing\ them.\r\n\ As\ shown\ in\ the\ book,\ computational\ methodds\ take\ parameter\r\n\ values\ and\ return\ the\ solution\ value\ --\ without\ printing\!\r\n\ (Professionals\ do\ print\ for\ debugging\ as\ shown\ in\ the\ book.\r\n\ But\ they\ delete\ the\ I/O\ before\ the\ code\ goes\ into\ production.)\r\n\ Methods\ are\ designed\ to\ be\ used\ and\ reused\ over\ and\ over.\r\n\ Your\ main\ method\ provides\ a\ test\ and\ demo\ for\ others.\ \r\n\ \r\n\ The\ textbook\ explained\ that\ one\ purpose\ of\ this\ exercise\ is\ to\r\n\ practice\ pattern-matching\:\ the\ ability\ to\ recognize\ a\ specific\r\n\ problem\ as\ an\ instance\ of\ a\ general\ category\ of\ problems.\r\n\ Did\ you\ find\ all\ the\ instances\ where\ multAdd()\ could\ be\ used?\r\n\r\n\ The\ slides\ shown\ in\ class\ demonstrated\ mathematical\ transformations\r\n\ such\ as\ transforming\ "divide\ by\ 4"\ into\ "multply\ by\ 1/4".\r\n\ They\ also\ showed\ that\ 1\ and\ 0\ are\ the\ multiplicative\r\n\ and\ additive\ identities,\ respectively.\r\n\ With\ all\ these\ hints,\ students\ should\ have\ recognized\r\n\ that\ cos/2+sin\ can\ be\ computed\ with\ one\ multAdd().\r\n\ \r\n\ The\ chapter\ also\ talked\ about\ functional\ composition,\ i.e.\r\n\ using\ one\ function\ call\ as\ the\ parameter\ to\ another\ function\ call.\r\n\ The\ professor's\ slides\ showed\ that\ this\ concept\ can\ be\ extended\r\n\ to\ an\ entire\ paradigm\ called\ functional\ programming.\ \r\n\ With\ all\ these\ hints,\ students\ should\ have\ recognized\r\n\ that\ expSum()\ can\ be\ computed\ with\ a\ multAdd()\ of\ a\ multAdd().\r\n\ \r\n\ @author\ Jason\ Miller\r\n\ This\ code\ written\ by\ Jason\ Miller\ at\ Shepherd\ University.\r\n\ Reference\ Think\ Java\ 2nd\ edition\ chapter\ 4\ exercise\ 6.\r\n\ \r\n\ 4.6\ part\ 1\r\n\ Use\ a\ class\ name\ that\ starts\ uppercase.\r\n
+comment1.params=a\ b\ c
+comment1.target=double\ multadd(double,\ double,\ double)
+comment1.text=\r\n\ 4.6\ part\ 2\r\n\ Use\ a\ method\ name\ that\ starts\ lowercase.\r\n\ A\ computational\ method\ returns\ a\ value\ without\ I/O.\r\n\ No\ Scanner\ inputs.\ No\ System\ outputs.\r\n
+comment2.params=a\ b\ c\ answer
+comment2.target=void\ show(double,\ double,\ double,\ double)
+comment2.text=\r\n\ This\ is\ a\ utility\ function.\r\n\ It\ was\ not\ required\ but\ it\ will\ come\ in\ handy.\r\n\ This\ prints\ the\ results\ of\ each\ computation.\r\n
+comment3.params=
+comment3.target=void\ main()
+comment3.text=\r\n\ This\ is\ a\ pass-thru\ function\ for\ convenience.\r\n\ Though\ main(String[]\ args)\ is\ more\ professional,\r\n\ main()\ is\ quicker\ to\ run\ and\ test\ in\ BlueJ.\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\r\n\ Here\ is\ the\ test\ and\ demo.\r\n\ This\ shows\ many\ ways\ to\ use\ multAdd().\r\n
+comment5.params=x
+comment5.target=double\ expSum(double)
+comment5.text=\r\n\ 4.6\ part\ 5\ extended\r\n\ Use\ multadd\ twice.\ \r\n\ In\ fact,\ use\ multadd()\ of\ a\ multadd()\!\r\n
+numComments=6

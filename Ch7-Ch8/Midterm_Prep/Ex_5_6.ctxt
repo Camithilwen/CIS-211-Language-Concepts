@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Ex_5_6
+comment1.params=
+comment1.target=void\ main()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=variable_name
+comment3.target=double\ userInput(java.lang.String)
+comment4.params=a\ b\ c
+comment4.target=void\ quadratic(double,\ double,\ double)
+numComments=5

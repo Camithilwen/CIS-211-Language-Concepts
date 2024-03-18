@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Runner
+comment0.text=\r\n\ Initializes\ and\ runs\ Tile\ object\ methods\ for\ testing\ purposes.\r\n\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

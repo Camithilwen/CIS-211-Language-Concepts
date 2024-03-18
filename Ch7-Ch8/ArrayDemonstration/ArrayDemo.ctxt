@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ArrayDemo
+comment0.text=\n\ An\ array\ is\ a\ data\ structure\n\ holding\ multiple\ values\ of\ the\ same\ type.\n\ Array\ access\ by\ position\ is\ fast\n\ because\ it\ holds\ a\ contiguous\ memory\ block.\n\n\ @author\ Jason\ Miller\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=ary
+comment3.target=void\ print_array(int[])
+comment4.params=size\ max
+comment4.target=int[]\ get_random_array(int,\ int)
+comment5.params=ary
+comment5.target=int\ get_array_sum(int[])
+numComments=6

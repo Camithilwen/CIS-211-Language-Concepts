@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=MaxDemo
+comment0.text=\r\n\ Here\ is\ a\ solution\ to\ ThinkJava\ exercise\ 8-6.\r\n\ Find\ the\ maximum\ element\ in\ an\ array\ of\ random\ ints.\r\n\ First,\ do\ this\ by\ iteration.\r\n\ Second,\ do\ this\ by\ recursion.\r\n\ Finally,\ compare\ the\ two\ results.\r\n\ \r\n\ @author\ Jason\ Miller\r\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=size\ max
+comment3.target=int[]\ makeArray(int,\ int)
+comment4.params=a
+comment4.target=int\ iterationMax(int[])
+comment5.params=a\ low\ high
+comment5.target=int\ recursiveMax(int[],\ int,\ int)
+numComments=6

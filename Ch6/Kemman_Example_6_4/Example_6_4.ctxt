@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Example_6_4
+comment0.text=\r\n\ Example\ 6_4\ from\ the\ Think\ Java\ textbook\ with\r\n\ additional\ stipulations\ from\ Prof.\ Miller.\r\n\ \r\n\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ V1.0\r\n
+comment1.params=input
+comment1.target=boolean\ isAbecedarian(java.lang.String)
+comment2.params=
+comment2.target=void\ main()
+numComments=3

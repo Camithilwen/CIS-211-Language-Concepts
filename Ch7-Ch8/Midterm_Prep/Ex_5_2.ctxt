@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Ex_5_2
+comment1.params=
+comment1.target=void\ main()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=
+comment3.target=int\ random()
+comment4.params=
+comment4.target=int\ userGuess()
+comment5.params=randomNumber\ userguess
+comment5.target=void\ guessLoop(int,\ int)
+numComments=6

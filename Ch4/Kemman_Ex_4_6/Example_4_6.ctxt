@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Example_4_6
+comment0.text=\r\n\ Example\ 4-6\ from\ the\ ThinkJava\ textbook.\r\n\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n
+comment1.params=a\ b\ c
+comment1.target=double\ multadd(double,\ double,\ double)
+comment2.params=
+comment2.target=void\ main()
+comment3.params=input
+comment3.target=double\ expSum(double)
+numComments=4

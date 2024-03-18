@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Ex_8_1
+comment0.text=\r\n\ Example\ 8-1\ from\ the\ Think\ Java\ textbook.\r\n\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ V1.0\r\n\ \r\nThis\ program\ is\ a\ recursive\ generation\ of\ the\ beer\ bottle\ song.\r\nI\ have\ left\ versecount\ defaulted\ at\ 99.\r\nProgram\ developed\ with\ versecount\ at\ 3.\r\nAfter\ debugging\ and\ proving\ the\ program\ works\ at\ versecount\ 99,\r\nI\ changed\ versecount\ to\ 10000.\ The\ program\ ran\ down\ through\ verse\ 429\ before\r\nencountering\ stack\ overflow.\ On\ subsequent\ re-runs\ it\ made\ it\ 10000\ verses\ without\r\nexception.\r\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=versecount
+comment3.target=java.lang.String\ verseFormat(int)
+comment4.params=versecount
+comment4.target=void\ mainVerses(int)
+comment5.params=
+comment5.target=void\ endVerse()
+numComments=6
