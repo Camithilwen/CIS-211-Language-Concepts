@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Status
+comment0.text=\n\ Complete\ description\ of\ the\ state\ of\ the\ game.\n\ Describes\ two\ card\ piles\ using\ 4\ numbers.\n\ There\ are\ no\ getters\ but\ the\ attributes\ are\ public.\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+numComments=2

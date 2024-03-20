@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Control
+comment0.text=\r\n\ Control\ the\ CardView\ program.\r\n\ \r\n\ To\ start\ a\ new\ game,\r\n\ invoke\ main()\ with\ or\ without\ parameters.\r\n
+comment1.params=
+comment1.target=Control()
+comment2.params=
+comment2.target=void\ go()
+comment3.params=
+comment3.target=void\ dealCard()
+comment4.params=
+comment4.target=void\ returnCard()
+comment5.params=
+comment5.target=void\ main()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

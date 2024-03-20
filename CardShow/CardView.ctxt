@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CardView
+comment0.text=\r\n\ Knows\ how\ to\ draw\ individual\ cards.\r\n
+comment1.params=
+comment1.target=CardView()
+comment2.params=cardNum
+comment2.target=java.awt.Image\ getImage(int)
+comment2.text=\r\n\ Generate\ an\ image\ to\ represent\ one\ card\ face.\r\n\ An\ image\ of\ the\ card\ back\ is\ returned\ for\ number\ zero.\r\n\ @param\ cardNum\ Between\ 1\ and\ 52\ for\ most\ card\ games.\r\n
+comment3.params=cardNum
+comment3.target=java.lang.String\ getShortName(int)
+comment3.text=\r\n\ Generate\ a\ short\ string\ to\ represent\ one\ card\ face.\r\n\ @param\ cardNum\ Between\ 1\ and\ 52\ for\ most\ card\ games.\r\n\ @return\ A\ 2-letter\ string\ like\ 'TH'\ for\ ten-of-hearts.\r\n
+numComments=4

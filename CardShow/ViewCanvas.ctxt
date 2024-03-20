@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ViewCanvas
+comment0.text=\r\n\ Draws\ two\ piles\ of\ cards\ on\ a\ card\ table\ background.\r\n
+comment1.params=cardView
+comment1.target=ViewCanvas(CardView)
+comment1.text=\r\n\ Constructor.\r\n\ @param\ Object\ describing\ how\ to\ draw\ a\ card.\r\n
+comment2.params=s
+comment2.target=void\ setState(Status)
+comment2.text=\r\n\ Describe\ the\ card\ piles.\r\n\ This\ determines\ what\ the\ canvas\ will\ draw.\r\n\ @param\ Object\ describing\ current\ game\ state.\r\n
+comment3.params=c
+comment3.target=void\ setBackground(java.awt.Color)
+comment4.params=g
+comment4.target=void\ paint(java.awt.Graphics)
+numComments=5

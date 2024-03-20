@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Model
+comment0.text=\r\n\ Manage\ the\ state\ of\ the\ game.\r\n\ One\ deck\ is\ used\ by\ two\ actors\ called\ dealer\ and\ player.\r\n\ Cards\ move\ one-at-a-time\ between\ actors.\r\n\ At\ all\ times,\ every\ card\ belongs\ to\ one\ actor.\r\n
+comment1.params=
+comment1.target=Model()
+comment2.params=
+comment2.target=Status\ getStatus()
+comment2.text=\r\n\ Generate\ a\ representation\ of\ the\ game\ state.\r\n\ Compute\ the\ heights\ of\ both\ card\ piles.\r\n\ Compute\ the\ top\ card\ for\ each\ pile.\r\n\ @return\ A\ new\ status\ object.\r\n
+comment3.params=last
+comment3.target=void\ setLastCard(int)
+comment3.text=\r\n\ Change\ the\ total\ number\ of\ cards.\r\n\ Most\ card\ game\ applications\ should\ not\ call\ this.\r\n\ The\ default\ value\ is\ 52\ i.e.\ a\ normal\ deck\ of\ cards.\r\n
+comment4.params=
+comment4.target=void\ dealCard()
+comment4.text=\r\n\ Take\ dealer's\ top\ card,\ make\ it\ player's\ top\ card.\r\n
+comment5.params=
+comment5.target=void\ returnCard()
+comment5.text=\r\n\ Take\ player's\ top\ card,\ make\ it\ dealer's\ top\ card.\r\n
+numComments=6
