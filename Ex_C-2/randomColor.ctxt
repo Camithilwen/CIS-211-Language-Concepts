@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=randomColor
+comment0.text=\r\n\ Using\ material\ and\ inference\ taken\ from\ the\ Think\ Java\ textbook,\r\n\ this\ class\ extends\ java.awt.Color\ to\ provide\ an\ option\ for\ a\r\n\ randomized\ return.\r\n\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ randomColor()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ RandomColor\r\n
+comment2.params=
+comment2.target=java.awt.Color\ getColor()
+comment2.text=\r\n\ Getter\ for\ the\ randomzied\ Color.\r\n\ @return\ returns\ a\ Color\ object.\r\n
+numComments=3

@@ -1,7 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.JFrame;
-
 /**
  * Manage the graphical user interface.
  * Use sees a menu, buttons, and cards drawn on a canvas.
