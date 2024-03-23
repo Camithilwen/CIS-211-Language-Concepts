@@ -2,8 +2,7 @@ import java.awt.*;
 import java.util.Random;
 /**
  * Using material and inference taken from the Think Java textbook,
- * this class extends java.awt.Color to provide an option for a
- * randomized return.
+ * this class provides an option for a Color with randomized RGBA values.
  *
  * @author Jamie Kemman
  * @version 1.0
@@ -11,24 +10,18 @@ import java.util.Random;
 public class randomColor
 
 {
-    // instance variables - replace the example below with your own
-    Color colorValue;
-    Random randomizer;
+    // instance variables
+    Random randomizer = new Random();
+    int r = randomizer.nextInt(255);
+    int g = randomizer.nextInt(255);
+    int b = randomizer.nextInt(255);
+    int a = randomizer.nextInt(255);
     /**
      * Constructor for objects of class RandomColor
      */
-    public void randomColor()
+    public Color randomColor()
     {
-        randomizer = new Random();
-        this.colorValue = new Color(randomizer.nextInt(255), randomizer.nextInt(255), randomizer.nextInt(255));
-    }
-    /**
-     * Getter for the randomzied Color.
-     * @return returns a Color object.
-     */
-    public Color getColor() {
-        
-        return this.colorValue;
-        
+        Color colorReturn = new Color(this.r,this.g,this.b,this.a); //i found out about the alpha variable by reading the javadoc inside blueJ.
+        return colorReturn;
     }
 }

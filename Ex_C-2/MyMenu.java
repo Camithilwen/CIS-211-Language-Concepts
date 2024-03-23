@@ -17,7 +17,6 @@ implements ActionListener
     MenuItem backColor3;
     GUI gui;
     randomColor randomizer;
-
     /**
      * Constructor for objects of class MyMenu
      * @param Takes a GUI object.
@@ -29,23 +28,27 @@ implements ActionListener
         backMenu=new Menu("Background");
         backColor1=new MenuItem("White");
         backColor2=new MenuItem("Green");
-        backColor3=new MenuItem("Trippy :)");
+        backColor3=new MenuItem("Random :)");
         backMenu.add(backColor1);
         backMenu.add(backColor2);
         backMenu.add(backColor3);
         this.add(backMenu);
-        randomizer = new randomColor();
         
         backColor1.addActionListener(this);
         backColor2.addActionListener(this);
         backColor3.addActionListener(this);
     }
-
+    /**
+     * When invoked, generates a new random color using the a randomColor object.
+     * @return Returns a Color.
+     */
+    public Color colorCall() {
+        randomizer = new randomColor();
+        return randomizer.randomColor();
+    }
     /**
      * Defines action events for each menu button.
-     *
      * @param  takes an ActionEvent.
-     * 
      */
     public void actionPerformed(ActionEvent e)
     {
@@ -54,7 +57,7 @@ implements ActionListener
         } else if (e.getSource()==backColor2) {
             gui.setBackground(Color.GREEN);
         } else if (e.getSource()==backColor3) {
-            gui.setBackground(randomizer.getColor());
+            gui.setBackground(colorCall());
         }
     }
 }

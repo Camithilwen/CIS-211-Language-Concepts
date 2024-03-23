@@ -14,10 +14,8 @@ implements ActionListener
     Button button1, button2, button3;
     GUI gui;
     randomColor randomizer;
-
     /**
      * Constructor for objects of class MyButtons
-     * 
      * @param Takes a GUI object.
      */
     public MyButtons(GUI gui)
@@ -26,30 +24,36 @@ implements ActionListener
         this.gui = gui;
         button1 = new Button("Black Moose");
         button2 = new Button("Red Moose");
-        button3 = new Button("Trippy Moose");
+        button3 = new Button("Random Moose :)");
         this.add(button1);
         this.add(button2);
         this.add(button3);
         button1.addActionListener(this);
         button2.addActionListener(this);
         button3.addActionListener(this);
-        randomizer = new randomColor();
     }
-
     /**
-     * Sets the gui color selection based on button input.
-     *
+     * When invoked, generates a new random color using the a randomColor object.
+     * @return Returns a Color.
+     */
+    public Color colorCall() {
+        randomizer = new randomColor();
+        return randomizer.randomColor();
+    }
+    /**
+     * Sets the foreground color selection based on button input.
      * @param takes an ActionEvent.
      */
     public void actionPerformed(ActionEvent e) {
-    
         if (e.getSource() == button1) {
             gui.setColor(Color.BLACK);
+            gui.setRecursiveColor(false);
         } else if (e.getSource() == button2) {
             gui.setColor(Color.RED);
+            gui.setRecursiveColor(false);
         } else if (e.getSource() == button3) {
-            gui.setColor(randomizer.getColor());
+            gui.setColor(colorCall());
+            gui.setRecursiveColor(true);
         }
-        
     }
 }

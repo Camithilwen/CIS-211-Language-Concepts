@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MyButtons
+comment0.text=\r\n\ View\ class\ for\ the\ user\ interface\ where\ the\ GUI\ buttons\ are\ defined.\r\n\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n
+comment1.params=gui
+comment1.target=MyButtons(GUI)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyButtons\r\n\ @param\ Takes\ a\ GUI\ object.\r\n
+comment2.params=
+comment2.target=java.awt.Color\ colorCall()
+comment2.text=\r\n\ When\ invoked,\ generates\ a\ new\ random\ color\ using\ the\ a\ randomColor\ object.\r\n\ @return\ Returns\ a\ Color.\r\n
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.text=\r\n\ Sets\ the\ foreground\ color\ selection\ based\ on\ button\ input.\r\n\ @param\ takes\ an\ ActionEvent.\r\n
+numComments=4

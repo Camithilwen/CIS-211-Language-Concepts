@@ -5,7 +5,6 @@ import javax.swing.JFrame;
  *
  * @author Jamie Kemman
  * @version 1.0
- * can i make a trippy button to randomize all the colors? :)
  */
 public class GUI
 {
@@ -27,14 +26,13 @@ public class GUI
         menu1 = new MyMenu(this);
     }
     /**
-     * Creates a background canvas with a flow layout, defaults of size 200x200,
+     * Creates a background canvas with a flow layout, defaults of size 300x300,
      * and a white background.
-     * 
      */
     public void go() 
     {
         frame1.setLayout(new FlowLayout());
-        canvas1.setSize(200,200);
+        canvas1.setSize(300,300);
         canvas1.setBackground(Color.WHITE);
         frame1.setMenuBar(menu1);
         frame1.add(canvas1);
@@ -57,6 +55,18 @@ public class GUI
     public void setBackground(Color c) {
         canvas1.setBackground(c);
     }
+    /**
+     * Passes a boolean flag from an event manager to a canvas class.
+     * @param Takes a boolean.
+     */
+    public void setRecursiveColor(boolean flag) {
+        if(flag == true) {
+            canvas1.recursiveColor(true);   
+        }
+        else if(flag == false) {
+           canvas1.recursiveColor(false); 
+        }
+    }
     public static void main() {
         main(null);
     }
@@ -64,4 +74,5 @@ public class GUI
         GUI gui = new GUI();
         gui.go();
     }
-}
+    }
+

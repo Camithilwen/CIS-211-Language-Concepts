@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MyMenu
+comment0.text=\r\n\ Defines\ the\ menu,\ options,\ and\ actions\ for\ the\ canvas\ background.\r\n\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n
+comment1.params=gui
+comment1.target=MyMenu(GUI)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyMenu\r\n\ @param\ Takes\ a\ GUI\ object.\r\n
+comment2.params=
+comment2.target=java.awt.Color\ colorCall()
+comment2.text=\r\n\ When\ invoked,\ generates\ a\ new\ random\ color\ using\ the\ a\ randomColor\ object.\r\n\ @return\ Returns\ a\ Color.\r\n
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.text=\r\n\ Defines\ action\ events\ for\ each\ menu\ button.\r\n\ @param\ \ takes\ an\ ActionEvent.\r\n
+numComments=4

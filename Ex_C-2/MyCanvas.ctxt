@@ -1,10 +1,22 @@
 #BlueJ class context
 comment0.target=MyCanvas
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyCanvas\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Defines\ a\ drawing\ canvas\ and\ associated\ elements\ for\ creating\ a\ fractal\ moose.\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n
 comment1.params=mooseColor
 comment1.target=void\ setColor(java.awt.Color)
 comment1.text=\r\n\ Sets\ the\ color\ of\ the\ Moose.\r\n\ @param\ takes\ a\ Color.\r\n
-comment2.params=g
-comment2.target=void\ paint(java.awt.Graphics)
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
-numComments=3
+comment2.params=g\ boundingBox
+comment2.target=void\ boxOval(java.awt.Graphics,\ java.awt.Rectangle)
+comment2.text=\r\n\ Method\ for\ defining\ a\ circle\ or\ oval\ using\ a\ rectangle\ object\ as\ a\ bounding\ box.\r\n\ @param\ takes\ a\ Graphics\ object\ and\ a\ Rectangle.\r\n
+comment3.params=flag
+comment3.target=void\ recursiveColor(boolean)
+comment3.text=\r\n\ Recieves\ a\ boolean\ setting\ flag\ from\ the\ gui\ for\ recursive\ color\ randomization.\r\n\ @param\ Takes\ a\ boolean.\r\n
+comment4.params=
+comment4.target=java.awt.Color\ colorCall()
+comment4.text=\r\n\ When\ invoked,\ generates\ a\ new\ random\ color\ using\ the\ a\ randomColor\ object.\r\n\ @return\ Returns\ a\ Color.\r\n
+comment5.params=g\ boundingBox
+comment5.target=void\ mooseHead(java.awt.Graphics,\ java.awt.Rectangle)
+comment5.text=\r\n\ When\ invoked\ by\ a\ paint\ object,\ this\ method\ creates\ a\ fractalized\r\n\ mickey\ mouse\ head\ dubbed\ 'mickey\ moose'.\ \r\n\ @param\ Takes\ a\ Graphics\ object\ and\ a\ Rectangle.\r\n
+comment6.params=g
+comment6.target=void\ paint(java.awt.Graphics)
+comment6.text=\r\n\ Paint\ method\ for\ drawing\ to\ the\ canvas.\r\n\ @param\ \ takes\ a\ Graphics\ object.\r\n
+numComments=7

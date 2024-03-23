@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=GUI
+comment0.text=\r\n\ Control\ class\ for\ the\ Mickey\ Moose\ fractal\ and\ associated\ user\ interface.\r\n\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=GUI()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GUI\r\n
+comment2.params=
+comment2.target=void\ go()
+comment2.text=\r\n\ Creates\ a\ background\ canvas\ with\ a\ flow\ layout,\ defaults\ of\ size\ 300x300,\r\n\ and\ a\ white\ background.\r\n
+comment3.params=mooseColor
+comment3.target=void\ setColor(java.awt.Color)
+comment3.text=\r\n\ Setter\ for\ the\ Moose's\ color.\r\n\ @param\ takes\ a\ color\ value.\r\n
+comment4.params=c
+comment4.target=void\ setBackground(java.awt.Color)
+comment4.text=\r\n\ Setter\ for\ the\ canvas's\ background\ color.\r\n\ @param\ takes\ a\ color\ value.\r\n
+comment5.params=flag
+comment5.target=void\ setRecursiveColor(boolean)
+comment5.text=\r\n\ Passes\ a\ boolean\ flag\ from\ an\ event\ manager\ to\ a\ canvas\ class.\r\n\ @param\ Takes\ a\ boolean.\r\n
+comment6.params=
+comment6.target=void\ main()
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
