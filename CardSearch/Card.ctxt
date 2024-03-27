@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\r\n\ Class\ defining\ a\ single\ playing\ card,taken\ from\ Chapter\ 12\ of\r\n\ the\ ThinkJava\ textbook.\r\n\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n\ \r\n\ TODO\:\ write\ differentiation\ into\ the\ class\ where\ aces\ can\ be\ low,\ high,\ or\ both.\r\n\ (HW\ only\ requires\ switching\ between\ low\ or\ high)\r\n
+comment1.params=rank\ suit
+comment1.target=Card(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ a\ Card\ object.\ This\ represnts\ a\ singular\ playing\ card\r\n\ from\ a\ traditional\ deck.\r\n\ @param\ takes\ an\ integer\ encoding\ for\ rank\ and\ an\ integer\ encoding\ for\ suit.\r\n\ @param\ Encoding\ is\ described\ in\ the\ Constructor\ documentation.\r\n\ \r\n\ Encoding\ is\ as\ follows\:\r\n\ \r\n\ Rank\r\n\ \ Ace\ ->\ 1\r\n\ \ .\ .\ .\r\n\ \ King\ ->\ 13\r\n\ \r\n\ Suit\r\n\ \ Clubs\ ->\ 1\r\n\ \ Diamonds\ ->\ 2\r\n\ \ Hearts\ ->\ 3\r\n\ \ Spades\ ->\ 4\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=other
+comment3.target=int\ compareTo(Card)
+comment4.params=other
+comment4.target=boolean\ equals(Card)
+numComments=5
