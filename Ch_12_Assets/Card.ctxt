@@ -4,4 +4,6 @@ comment0.text=\r\n\ Class\ defining\ a\ single\ playing\ card,taken\ from\ Chapt
 comment1.params=rank\ suit
 comment1.target=Card(int,\ int)
 comment1.text=\r\n\ Constructor\ for\ a\ Card\ object.\ This\ represnts\ a\ singular\ playing\ card\r\n\ from\ a\ traditional\ deck.\r\n\ @param\ takes\ an\ integer\ encoding\ for\ rank\ and\ an\ integer\ encoding\ for\ suit.\r\n\ @param\ Encoding\ is\ described\ in\ the\ Constructor\ documentation.\r\n\ \r\n\ Encoding\ is\ as\ follows\:\r\n\ \r\n\ Rank\r\n\ \ Ace\ ->\ 1\r\n\ \ .\ .\ .\r\n\ \ King\ ->\ 13\r\n\ \r\n\ Suit\r\n\ \ Clubs\ ->\ 1\r\n\ \ Diamonds\ ->\ 2\r\n\ \ Hearts\ ->\ 3\r\n\ \ Spades\ ->\ 4\r\n
-numComments=2
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

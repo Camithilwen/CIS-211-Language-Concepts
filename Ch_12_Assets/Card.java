@@ -35,4 +35,11 @@ public class Card
         this.rank = rank;
         this.suit = suit;
     }
+    public String toString() {
+        String[] suits = {null,"Clubs", "Diamonds", "Hearts", "Spades"};
+        String[] ranks = {null, "Ace", "2", "3", "4", "5", "6", "7", "8", "9",
+                            "10", "Jack", "Queen", "King"};
+        String returnValue = ranks[this.rank] + " of " + suits[this.suit];
+        return returnValue;
+    }
 }
