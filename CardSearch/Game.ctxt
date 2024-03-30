@@ -1,9 +1,11 @@
 #BlueJ class context
 comment0.target=Game
+comment0.text=\r\n\ Simple\ card\ game\ exercise\ using\ Card\ objects.\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n
 comment1.params=
 comment1.target=void\ main()
 comment2.params=args
 comment2.target=void\ main(java.lang.String[])
 comment3.params=
 comment3.target=void\ compareTwoCards()
+comment3.text=\r\n\ Simple\ game\ comparing\ pairs\ of\ randomized\ cards.\r\n\ Repeats\ twenty\ times\ each\ for\ aces\ low\ and\ aces\ high.\r\n
 numComments=4

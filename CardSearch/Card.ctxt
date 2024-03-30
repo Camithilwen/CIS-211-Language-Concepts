@@ -1,13 +1,28 @@
 #BlueJ class context
 comment0.target=Card
-comment0.text=\r\n\ Class\ defining\ a\ single\ playing\ card,taken\ from\ Chapter\ 12\ of\r\n\ the\ ThinkJava\ textbook.\r\n\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n\ \r\n\ TODO\:\ write\ differentiation\ into\ the\ class\ where\ aces\ can\ be\ low,\ high,\ or\ both.\r\n\ (HW\ only\ requires\ switching\ between\ low\ or\ high)\r\n
-comment1.params=rank\ suit
-comment1.target=Card(int,\ int)
-comment1.text=\r\n\ Constructor\ for\ a\ Card\ object.\ This\ represnts\ a\ singular\ playing\ card\r\n\ from\ a\ traditional\ deck.\r\n\ @param\ takes\ an\ integer\ encoding\ for\ rank\ and\ an\ integer\ encoding\ for\ suit.\r\n\ @param\ Encoding\ is\ described\ in\ the\ Constructor\ documentation.\r\n\ \r\n\ Encoding\ is\ as\ follows\:\r\n\ \r\n\ Rank\r\n\ \ Ace\ ->\ 1\r\n\ \ .\ .\ .\r\n\ \ King\ ->\ 13\r\n\ \r\n\ Suit\r\n\ \ Clubs\ ->\ 1\r\n\ \ Diamonds\ ->\ 2\r\n\ \ Hearts\ ->\ 3\r\n\ \ Spades\ ->\ 4\r\n
+comment0.text=\r\n\ Class\ defining\ a\ single\ playing\ card\ with\ elements\ taken\ from\ Chapter\ 12\ of\r\n\ the\ ThinkJava\ textbook.\r\n\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n
+comment1.params=rank\ suit\ aceMode\ compareMode
+comment1.target=Card(int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ a\ Card\ object.\ This\ represnts\ a\ singular\ playing\ card\r\n\ from\ a\ traditional\ deck.\r\n\ @param\ takes\ an\ integer\ encoding\ for\ rank\ and\ an\ integer\ encoding\ for\ suit.\r\n\ @param\ Encoding\ is\ described\ in\ the\ Constructor\ documentation.\r\n\ @param\ aceMode\ denotes\ aces\ low\ (0),\ aces\ high\ (1),\ or\ aces\ wild\ (2).\ Default\ on\ invalid\ input\ is\ aces\ high.\r\n\ @param\ compareMode\ denotes\ suit\ priority\ (0),\ rank\ priority\ (1),\ or\ both\ (2).\ Default\ on\ invalid\ input\ is\ rank\ priority.\r\n\ \r\n\ Rank\ and\ Suit\ encoding\ is\ as\ follows\:\r\n\ \r\n\ Rank\r\n\ \ Ace\ (low)\ ->\ 1\r\n\ \ .\ .\ .\r\n\ \ King\ ->\ 13\r\n\ \ Ace\ (high)\ ->\ 14\r\n\ \r\n\ Suit\r\n\ \ Clubs\ ->\ 1\r\n\ \ Diamonds\ ->\ 2\r\n\ \ Hearts\ ->\ 3\r\n\ \ Spades\ ->\ 4\r\n
 comment2.params=
 comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Replaces\ the\ default\ toString\ method.\r\n\ @return\ returns\ a\ formatted\ String\ of\ the\ Card's\ game-relevant\ attributes.\r\n
 comment3.params=other
 comment3.target=int\ compareTo(Card)
+comment3.text=\r\n\ Comparison\ method\ for\ other\ Card\ objects.\r\n\ Comparison\ mechanics\ are\ determined\ by\ the\ value\ of\ compareMode.\r\n\ @return\ returns\ 0,\ 1,\ or\ -1\ to\ indicate\ the\ relative\ value\ to\ a\ second\ Card.\r\n
 comment4.params=other
 comment4.target=boolean\ equals(Card)
-numComments=5
+comment4.text=\r\n\ Replaces\ the\ default\ equals\ method.\r\n\ Equality\ mechanics\ are\ determined\ by\ the\ value\ of\ compareMode.\r\n\ @return\ returns\ a\ boolean\ indicating\ truth\ of\ equality.\r\n
+comment5.params=setting
+comment5.target=void\ setAceMode(int)
+comment5.text=\r\n\ Setter\ for\ the\ game-relevant\ value\ of\ Aces.\r\n\ Allows\ aces\ high,\ low,\ or\ wild\ to\ be\ updated\ as\ needed.\r\n\ @param\ takes\ an\ integer\ between\ 0\ and\ 2.\r\n
+comment6.params=
+comment6.target=int\ getAceMode()
+comment6.text=\r\n\ Getter\ for\ the\ setting\ controlling\ the\ rank\ value\ of\ Aces.\r\n\ @return\ returns\ an\ int\ between\ 0\ and\ 2.\ 0\ \=\ ACEMODELOW,\ 1\ \=\ ACEMODEHIGH,\ 2\ \=\ ACEMODEBOTH.\r\n
+comment7.params=setting
+comment7.target=void\ setCompareMode(int)
+comment7.text=\r\n\ Setter\ for\ the\ comparison\ mode.\ Allows\ basis\ of\ comparison\ to\ be\ actively\ changed\ between\ suit,\ rank,\ or\ both.\r\n\ @param\ takes\ an\ int\ between\ 0\ and\ 2.\r\n
+comment8.params=setting
+comment8.target=int\ getCompareMode(int)
+comment8.text=\r\n\ Getter\ for\ the\ comparsion\ mode\ setting.\r\n\ @return\ returns\ an\ int\ between\ 0\ and\ 2.\ 0\ \=\=\ COMPAREMODESUIT,\ 1\ \=\ COMPAREMODERANK,\ 2\ \=\ COMPAREMODEBOTH.\r\n
+numComments=9
