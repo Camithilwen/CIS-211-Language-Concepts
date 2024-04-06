@@ -76,7 +76,7 @@ public class Card
             this.compareMode = COMPAREMODERANK;
         }
         if (this.aceMode == ACEMODEHIGH || this.aceMode == ACEMODEBOTH) {
-            rankMin = 2;
+            rankMin = ACELOW;
             rankMax = ACEHIGH;
             if(this.rank == ACELOW) {
                 this.rank = ACEHIGH;

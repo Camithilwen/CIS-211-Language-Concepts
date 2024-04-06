@@ -27,6 +27,7 @@ public class Game {
         System.out.println();
         
         CardCollection deckTwo = new CardCollection(true, Card.ACEMODEHIGH, Card.COMPAREMODERANK);
+        System.out.println(deckTwo.toString());
         System.out.println("Aces high!");
         for (int j = 0; j < 20; j++) {
             System.out.println(deckTwo.gameDrawTwo());

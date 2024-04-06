@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=SortDemo
+comment0.text=\r\n\ Demonstrate\ sorting\ an\ array.\r\n\r\n\ @author\ Jason\r\n\ @version\ v04\r\n
+comment1.params=countCompare\ verboseCompare\ showSteps
+comment1.target=SortDemo(boolean,\ boolean,\ boolean)
+comment2.params=
+comment2.target=void\ showCount()
+comment3.params=len\ max
+comment3.target=MyInteger[]\ generateRandomData(int,\ int)
+comment4.params=data
+comment4.target=void\ demoMergeSort(MyInteger[])
+comment5.params=data
+comment5.target=void\ demoJavaSort(MyInteger[])
+comment6.params=data\ qry
+comment6.target=void\ demoSequentialSearch(MyInteger[],\ MyInteger)
+comment7.params=data\ qry
+comment7.target=void\ demoBinarySearch(MyInteger[],\ MyInteger)
+comment8.params=
+comment8.target=void\ main()
+numComments=9

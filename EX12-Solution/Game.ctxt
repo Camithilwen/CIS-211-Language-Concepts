@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ This\ HW\ is\ an\ extension\ of\ exercise\ 12-2\ which\ addresses\ \r\n\ whether\ ace\ is\ high\ or\ low.\ Some\ people\ think\ ace\ is\ \r\n\ lower\ than\ two,\ but\ others\ think\ ace\ is\ higher\ than\ king.\ \r\n\ Our\ software\ should\ support\ both.\ In\ the\ game\ War,\ cards\ \r\n\ are\ compared\ by\ rank\ not\ suit.\ Write\ a\ program\ that\ \r\n\ announces\ "Ace\ is\ low\!",\ then\ generates\ 20\ pairs\ of\ \r\n\ random\ cards,\ and\ announces\ each\ pair's\ winner,\ as\ in\ \r\n\ "4\ beats\ 3"\ or\ "3\ beats\ A".\ Then,\ it\ announces\ "Ace\ is\ high\!",\ \r\n\ generates\ 20\ more\ pairs,\ and\ announces\ those\ winners,\ as\ in\ \r\n\ "A\ beats\ Q".\ Critically,\ all\ comparisons\ must\ use\ compareTo(),\ \r\n\ as\ in\ cmp\=card1.compareTo(card2).\ Hint\:\ your\ Card\ class\ \r\n\ needs\ a\ static\ boolean\ attribute\ to\ represent\ whether\ ace\ \r\n\ is\ high,\ and\ compareTo()\ needs\ to\ use\ this\ attribute.\r\n\r\n\ @author\ Jason\ Miller\r\n\ @version\ 0.1\r\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=
+comment3.target=void\ showOff()
+comment3.text=\r\n\ Compare\ 20\ cards.\r\n\ Use\ the\ random\ number\ generator\ from\ ThinkJava\ chapter\ 7.\r\n\ \r\n\ In\ this\ minimimalist\ solution,\r\n\ each\ card\ becomes\ garbage\ immediately\ after\ the\ comparison.\r\n\ Another\ soultion\ could\ use\ two\ CardCollection\ instances,\r\n\ with\ each\ one\ holding\ a\ full\ deck\ of\ 52\ cards,\ from\ which\ \r\n\ we\ compare\ a\ random\ card\ from\ each\ ...\ 20\ times.\r\n
+comment4.params=card1\ card2
+comment4.target=void\ chooseWinner(Card,\ Card)
+numComments=5

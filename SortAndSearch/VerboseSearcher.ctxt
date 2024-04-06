@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=VerboseSearcher
+comment0.text=\r\n\ The\ VerboseSorter\ can\ use\ Sequential\ Search\ or\ Binary\ Search.\r\n\ Set\ this.verbose\ to\ see\ step-by-step\ comentary.\r\n\ Set\ data.verbose\ to\ track\ number\ of\ comparisons.\r\n
+comment1.params=verbose
+comment1.target=VerboseSearcher(boolean)
+comment2.params=data\ qry
+comment2.target=int\ sequentialSearch(MyInteger[],\ MyInteger)
+comment3.params=data\ qry
+comment3.target=int\ binarySearch(MyInteger[],\ MyInteger)
+comment4.params=data\ qry\ start\ end
+comment4.target=int\ binSearch(MyInteger[],\ MyInteger,\ int,\ int)
+comment5.params=s
+comment5.target=void\ say(java.lang.String)
+numComments=6

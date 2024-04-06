@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=VerboseSorter
+comment0.text=\r\n\ The\ VerboseSorter\ implements\ MergeSort.\r\n\ Set\ this.verbose\ to\ see\ step-by-step\ comentary.\r\n\ Set\ data.verbose\ to\ track\ number\ of\ comparisons.\r\n
+comment1.params=buffer\ verbose
+comment1.target=VerboseSorter(VerboseCompare[],\ boolean)
+comment2.params=data
+comment2.target=void\ sort(VerboseCompare[])
+comment3.params=begin\ end
+comment3.target=void\ sort(int,\ int)
+comment4.params=begin\ half\ end
+comment4.target=void\ merge(int,\ int,\ int)
+comment5.params=s
+comment5.target=void\ say(java.lang.String)
+numComments=6

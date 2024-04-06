@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\r\n\ Represent\ one\ card\ from\ a\ card\ game.\r\n\ Essential\ attributes\ are\ rank\ and\ suit.\r\n\ \r\n\ @version\ Developed\ in\ class\ week\ of\ Mar\ 25\ 2024.\r\n
+comment1.params=rank\ suit
+comment1.target=Card(int,\ int)
+comment1.text=\r\n\ Constructor.\r\n\ Calling\ programs\ may\ use\ constants\ like\ this\:\r\n\ Card\ c\ \=\ new\ Card\ (Card.ACE,\ Card.SPADES);\r\n\ Edge\ case\ behavior\:\ generates\ default\ card\ if\ given\ invalid.\r\n\ Default\ card\ is\ ace\ of\ spades.\r\n\ \r\n\ @param\ rank\ 1\ for\ ace,\ 2\ for\ 2,\ ....\ 13\ for\ king\r\n\ @param\ suit\ {1,2,3,4}\ for\ {clubs,diamonds,hearts,spades}\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=other
+comment3.target=boolean\ equals(Card)
+comment4.params=aceIsHigh
+comment4.target=void\ setAceHigh(boolean)
+comment4.text=\r\n\ Determine\ the\ ace\ rule\ for\ all\ cards.\r\n\ This\ affects\ the\ compareTo()\ results.\r\n\ Default\:\ ace\ is\ lower\ than\ two.\r\n\ \r\n\ @param\ aceIsHigh\ If\ true,\ ace\ is\ higher\ than\ king.\r\n
+comment5.params=other
+comment5.target=int\ compareTo(Card)
+comment5.text=\r\n\ Compare\ cards\ and\ return\ 0,\ negative,\ or\ positive.\r\n\ \r\n\ @see\ setAceHigh\r\n
+numComments=6

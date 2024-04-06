@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\r\n\ Class\ defining\ a\ single\ playing\ card\ with\ elements\ taken\ from\ Chapter\ 12\ of\r\n\ the\ ThinkJava\ textbook.\r\n\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n\ \r\n\ TODO\:\ static\ setters\ for\ ace\ high\ OR\ ace\ low\ and\ compare\ modes\r\n
+comment1.params=rank\ suit
+comment1.target=Card(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ a\ Card\ object.\ This\ represnts\ a\ singular\ playing\ card\r\n\ from\ a\ traditional\ deck.\r\n\ @param\ takes\ an\ integer\ encoding\ for\ rank\ and\ an\ integer\ encoding\ for\ suit.\r\n\ @param\ aceMode\ denotes\ whether\ aces\ are\ considered\ high\ (true)\ or\ low.\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Replaces\ the\ default\ toString\ method.\r\n\ @return\ returns\ a\ formatted\ String\ of\ the\ Card's\ game-relevant\ attributes.\r\n
+comment3.params=other
+comment3.target=int\ compareTo(Card)
+comment3.text=\r\n\ Comparison\ method\ for\ other\ Card\ objects.\r\n\ @return\ returns\ 0,\ 1,\ or\ -1\ to\ indicate\ the\ relative\ value\ to\ a\ second\ Card.\r\n
+comment4.params=other
+comment4.target=boolean\ equals(Card)
+comment4.text=\r\n\ Replaces\ the\ default\ equals\ method.\r\n\ @return\ returns\ a\ boolean\ indicating\ truth\ of\ equality.\r\n
+comment5.params=setting
+comment5.target=void\ setAceMode(boolean)
+comment5.text=\r\n\ Setter\ for\ the\ game-relevant\ value\ of\ Aces.\r\n\ Allows\ aces\ high,\ low,\ or\ wild\ to\ be\ updated\ as\ needed.\r\n\ @param\ takes\ an\ integer\ between\ 0\ and\ 2.\r\n
+comment6.params=
+comment6.target=boolean\ getAceMode()
+comment6.text=\r\n\ Getter\ for\ the\ setting\ controlling\ the\ rank\ value\ of\ Aces.\r\n\ @return\ returns\ an\ int\ between\ 0\ and\ 2.\ 0\ \=\ ACEMODELOW,\ 1\ \=\ ACEMODEHIGH,\ 2\ \=\ ACEMODEBOTH.\r\n
+numComments=7

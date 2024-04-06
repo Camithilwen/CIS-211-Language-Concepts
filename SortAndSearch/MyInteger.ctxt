@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=MyInteger
+comment1.params=value
+comment1.target=MyInteger(int)
+comment2.params=
+comment2.target=int\ getCount()
+comment3.params=
+comment3.target=void\ resetCount()
+comment4.params=
+comment4.target=void\ setVerbose()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=that
+comment6.target=int\ compareTo(java.lang.Object)
+comment7.params=
+comment7.target=int\ getInt()
+numComments=8
