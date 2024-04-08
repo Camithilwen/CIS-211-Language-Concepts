@@ -15,7 +15,7 @@ public class CardCollection
     private int MAX_SIZE;
     private int num_cards;
     private boolean aceMode;
-    private static Random randomizer;
+    private static Random randomizer = new Random();
     public int length;
     
     public CardCollection()
@@ -84,7 +84,6 @@ public class CardCollection
      * @return returns a random integer from within the range.
      */
     private static int randomInt(int low, int high) {
-        randomizer = new Random();
         return randomizer.nextInt(high - low + 1);
     }
     
@@ -147,8 +146,8 @@ public class CardCollection
     
     public void selectionSort() {
         int lowest;
-        for(int i = 0; i <= this.cards.length; i++) {
-            lowest = this.indexLowest(i,this.MAX_SIZE - 1);
+        for(int i = 0; i < this.cards.length; i++) {
+            lowest = this.indexLowest(i,this.MAX_SIZE);
             this.swapCards(i, lowest);
             }
     }
@@ -158,17 +157,15 @@ public class CardCollection
         int lowestToRight = low;
         Card lowestCard = this.cards[low];
         Card lowestCardToRight = this.cards[low];
-        for(int i = low; i < high; i++) {
-            for(int j = i; j < high; j++) {
-                if(lowestCard.multiCompare(this.cards[j]) == -1) {
-                    lowestToRight = i;
-                    lowestCardToRight = this.cards[i];
+        for(int i = low; i < high - 1; i++) {
+                if(lowestCard.multiCompare(this.cards[i+1]) == 1) {
+                    lowestToRight = i+1;
+                    lowestCardToRight = this.cards[i+1];
                 }
-                if(lowestCard.multiCompare(lowestCardToRight) == -1) {
+                if(lowestCard.multiCompare(lowestCardToRight) == 1) {
                     lowest = lowestToRight;
                     lowestCard = lowestCardToRight;
                 }
-            }
         }
         return lowest;
     }
@@ -176,7 +173,6 @@ public class CardCollection
         CardCollection deck3 = new CardCollection(false, true, deck1.length + deck2.length);
         int i = 0;
         int j = 0;
-        
         for(int k = 0; k < deck3.length; k++) {
             if(deck1.cards[i] == null) {
                 deck3.cards[k] = deck2.cards[j];

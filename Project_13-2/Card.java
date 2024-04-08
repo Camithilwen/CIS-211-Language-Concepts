@@ -66,21 +66,35 @@ public class Card
         if (other == null) {
             return 1;
         }
-        if (aceMode == true) {
+        if (this.aceMode == true) {
             if (this.rank != ACE && other.rank == ACE) {
                 return -1;
             }
             if (this.rank == ACE && other.rank != ACE) {
                 return 1;
             }
+            if (this.rank == ACE && other.rank == ACE) {
+                return 0;
+            }
+            if (this.rank != ACE && other.rank != ACE) {
+                if (this.rank < other.rank) {
+                return -1;
+            } else if (this.rank > other.rank) {
+                return 1;
+            } else if (this.rank == other.rank) {
+                return 0;
+            }     
+            }
+        } else if (this.aceMode == false) {
+            if (this.rank < other.rank) {
+                return -1;
+            } else if (this.rank > other.rank) {
+                return 1;
+            } else if (this.rank == other.rank) {
+                return 0;
+            }     
         }
-        if (this.rank < other.rank) {
-            return -1;
-        } else if (this.rank > other.rank) {
-            return 1;
-        } else {
-            return 0;
-        }     
+        return 0;
     }
     
     /**
@@ -96,7 +110,10 @@ public class Card
             return -1;
         } else if (this.suit > other.suit) {
             return 1;
-        } else {
+        } else if (this.suit == other.suit) {
+            return 0;
+        }
+        else {
             return 0;
         }
     }
@@ -145,7 +162,7 @@ public class Card
 
     /**
      * Getter for the setting controlling the rank value of Aces.
-     * @return returns an int between 0 and 2. 0 = ACEMODELOW, 1 = ACEMODEHIGH, 2 = ACEMODEBOTH.
+     * @return returns a boolean.
      */
     public boolean getAceMode() {
         return this.aceMode;

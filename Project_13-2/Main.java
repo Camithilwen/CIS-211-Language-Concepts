@@ -11,15 +11,13 @@ public class Main {
 
     public static void main (String[] args) {
         CardCollection testDeck = new CardCollection(true, true, 52);
-        System.out.println(testDeck.cards[0].multiCompare(testDeck.cards[1]));
-        System.out.println(testDeck.indexLowest(0,51));
         System.out.printf("Before:\n" + testDeck.print() + "\n\n");
         System.out.printf("Shuffle time!\n\n");
         testDeck.shuffle(3);
         System.out.printf("After:\n" + testDeck.print() + "\n\n");
-        //System.out.printf("Sorting time!\n\n");
-        //testDeck.selectionSort();
-        //System.out.printf("Sorted:\n" + testDeck.print() + "\n\n");
+        System.out.printf("Sorting time!\n\n");
+        testDeck.selectionSort();
+        System.out.printf("Sorted:\n" + testDeck.print() + "\n\n");
     }
 }
         
