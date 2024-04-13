@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Book
+comment0.text=\r\n\ Extends\ Item()\ to\ include\ additional\ data\ specific\ to\ print\ and\ digital\ books.\r\n\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Book()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Book\r\n
+comment2.params=input
+comment2.target=void\ setISBN(java.lang.String)
+comment2.text=\r\n\ Setter\ for\ the\ ISBN.\ ISBN\ formats\ are\ automatically\ filtered.\r\n\ If\ both\ exist,\ ISBN-10\ and\ ISBN-13\ can\ be\ entered\ through\ separate\ invocations.\r\n\ @param\ takes\ a\ String\ as\ input.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getISBN()
+comment3.text=\r\n\ Retrieves\ associated\ ISBNs.\r\n\ @return\ returns\ a\ human-readable\ String\ containing\ the\ ISBN-10\ and/or\ ISBN-13.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Overrides\ the\ toString()\ method\ of\ Item\ to\ add\ ISBN\ information\ to\ the\ output.\r\n\ @return\ returns\ a\ human-readable\ String\ of\ all\ Book\ attributes.\r\n
+numComments=5

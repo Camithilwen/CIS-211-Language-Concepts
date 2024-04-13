@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Periodical
+comment0.text=\r\n\ Extends\ Item()\ with\ information\ specific\ to\ Periodical\ journals\ and\ magazines.\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Periodical()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Periodical\r\n
+comment2.params=input
+comment2.target=void\ setISSN(java.lang.String)
+comment2.text=\r\n\ Sets\ the\ ISSN.\r\n\ @param\ takes\ a\ String\ as\ input.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getISSN()
+comment3.text=\r\n\ Retrieves\ the\ ISSN.\r\n\ @return\ returns\ a\ String.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Overrides\ the\ toString()\ method\ of\ Item\ to\ add\ ISSN\ information\ to\ the\ output.\r\n\ @return\ returns\ a\ human-readable\ String\ containing\ all\ Periodical\ attributes.\r\n
+numComments=5

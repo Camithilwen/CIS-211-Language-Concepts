@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ Mock-up\ library\ catalog\ system\ using\ an\ abstract\ Item\ class\ and\ an\ ArrayList\r\n\ to\ contain\ child\ classes\ of\ Item.\r\n\r\n\ @author\ Jamie\ Kemman\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

@@ -132,13 +132,33 @@ public class CardCollection
         return output;
     }
     
-    public void mergeSort() {
-        Card[] half = new Card[(MAX_SIZE / 2)];
+    public CardCollection mergeSort(CardCollection input) {
+        CardCollection half1;
+        CardCollection half2;
+        if(input.length == 0) {
+            System.err.println("return 0!");
+            return input;
+        } else if(input.length == 1) {
+            System.err.println("return 1 for " + input.cards[0].toString());
+            return input;
+        } else if(input.length > 1) {
+            half1 = input.subCollection(0, (input.length/2));
+            half2 = input.subCollection((input.length/2), input.length);
+            half1.mergeSort(half1);
+            half2.mergeSort(half2);
+        } else{
+            System.err.println("no if tree condition met.");
+            return null;
+        }
+        CardCollection mergeResult = merge(half1,half2);
+            System.out.printf("\n\n\n" + mergeResult.print() + "\n\n\n");
+            return mergeResult;
+            //might be assembling the arrays in the wrong order (left to right or right to left correct??)
     }
     
-    public CardCollection subdeck(int low, int high) {
-        CardCollection sub = new CardCollection(false, this.aceMode, high - low + 1);
-        for (int i = 0; i < sub.cards.length; i++) {
+    public CardCollection subCollection(int low, int high) {
+        CardCollection sub = new CardCollection(false, this.aceMode, high - low);
+        for (int i = 0; i < sub.length; i++) {
             sub.cards[i] = this.cards[low + i];
         }
         return sub;
@@ -174,31 +194,34 @@ public class CardCollection
         int i = 0;
         int j = 0;
         for(int k = 0; k < deck3.length; k++) {
-            if(deck1.cards[i] == null) {
+            if(deck1.length == i && j < deck2.length) {
+                System.err.println("i pile empty, picking " + deck2.cards[j].toString() + " from j");
                 deck3.cards[k] = deck2.cards[j];
                 j++;
-            }
-            if(deck2.cards[j] == null) {
+            } else if(deck2.length == j && i < deck1.length) {
+                System.err.println("j pile empty, picking " + deck1.cards[i].toString() + " from i");
                 deck3.cards[k] = deck1.cards[i];
                 i++;
-            }
-            else{
+            } else {
+                System.err.println(deck1.cards[i].toString() + " vs " + deck2.cards[j].toString());
                 switch (deck1.cards[i].multiCompare(deck2.cards[j])) {
                     case -1:
-                        deck3.cards[k] = deck2.cards[j];
-                        j++;
+                        System.err.println("Case -1");
+                        deck3.cards[k] = deck1.cards[i];
+                        i++;
                         break;
                     case 0:
+                        System.err.println("Equal???");
                         deck3.cards[k] = deck1.cards[i];
                         i++;
                         break;
                     case 1:
-                        deck3.cards[k] = deck1.cards[i];
-                        i++;
+                        System.err.println("Case 1");
+                        deck3.cards[k] = deck2.cards[j];
+                        j++;
                         break;
                     default:
-                        deck3.cards[k] = deck1.cards[i];
-                        i++;
+                        System.err.println("default case!");
                         break;
                 }
             }
