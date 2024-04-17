@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=GameView
-comment0.text=\n\ GameView\ is\ a\ canvas\ containing\ a\ matrix\ of\ rectangles.\n\ Every\ rectangle\ has\ a\ position.\n\ Rectangles\ do\ not\ overlap.\n\ Every\ rectangle\ has\ a\ state\:\ on\ or\ off.\n\ When\ the\ canvas\ paints,\ rectangles\ are\ colored\ by\ their\ state.\n
+comment0.text=\r\n\ GameView\ is\ a\ canvas\ containing\ a\ matrix\ of\ rectangles.\r\n\ Every\ rectangle\ has\ a\ position.\r\n\ Rectangles\ do\ not\ overlap.\r\n\ Every\ rectangle\ has\ a\ state\:\ on\ or\ off.\r\n\ When\ the\ canvas\ paints,\ rectangles\ are\ colored\ by\ their\ state.\r\n
 comment1.params=model
 comment1.target=GameView(GameModel)
 comment2.params=g

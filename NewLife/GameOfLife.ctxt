@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=GameOfLife
-comment0.text=\n\ Conway's\ Game\ of\ Life.\n\ Set\ up\ objects.\n\ Start\ the\ game.\n
+comment0.text=\r\n\ Conway's\ Game\ of\ Life.\r\n\ Set\ up\ objects.\r\n\ Start\ the\ game.\r\n
 comment1.params=
 comment1.target=void\ main()
 comment2.params=args

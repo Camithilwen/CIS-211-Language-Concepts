@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=GameModel
-comment0.text=\n\ GameModel\ manages\ the\ game\ board\ and\ all\ its\ cells.\n
+comment0.text=\r\n\ GameModel\ manages\ the\ game\ board\ and\ all\ its\ cells.\r\n
 comment1.params=rows\ cols\ pixels_per_cell
 comment1.target=GameModel(int,\ int,\ int)
-comment1.text=\n\ Constructor.\n
+comment1.text=\r\n\ Constructor.\r\n
 comment10.params=r\ c
 comment10.target=int\ countNeighbors(int,\ int)
 comment11.params=

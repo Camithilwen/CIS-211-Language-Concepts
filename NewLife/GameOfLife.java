@@ -83,8 +83,8 @@ implements ActionListener {
     }
     
     public void run() {
-        for(int i = 0; i < 3; i++) {
-                if(gameModel.stopSignal = false) {
+        for(int i = 0; i < 300; i++) {
+                if(gameModel.stopSignal == false) {
                     gameModel.advanceOneGeneration();
                     gameView.repaint();
                     i = 0;
