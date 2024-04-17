@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Cell
+comment0.text=\n\ One\ cell\ of\ the\ board\ of\ the\ Game\ of\ Life.\n\ The\ cell\ does\ not\ communicate\ with\ other\ cells.\n
+comment1.params=
+comment1.target=Cell()
+comment2.params=bb
+comment2.target=void\ setBoundingBox(java.awt.Rectangle)
+comment3.params=
+comment3.target=java.awt.Rectangle\ getBoundingBox()
+comment4.params=
+comment4.target=void\ toggleState()
+comment5.params=newState
+comment5.target=void\ setState(boolean)
+comment6.params=
+comment6.target=boolean\ getState()
+comment7.params=value
+comment7.target=void\ setCount(int)
+comment8.params=
+comment8.target=int\ getCount()
+numComments=9

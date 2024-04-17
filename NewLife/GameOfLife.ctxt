@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GameOfLife
+comment0.text=\n\ Conway's\ Game\ of\ Life.\n\ Set\ up\ objects.\n\ Start\ the\ game.\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=
+comment3.target=GameOfLife()
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=me
+comment5.target=void\ mouseClicked(java.awt.event.MouseEvent)
+comment6.params=
+comment6.target=void\ run()
+numComments=7

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Chessboard
+comment0.text=\n\ Checkerboard\ with\ 8x8\ squares.\n\n\ @Jamie\ Kemman\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GameView
+comment0.text=\n\ GameView\ is\ a\ canvas\ containing\ a\ matrix\ of\ rectangles.\n\ Every\ rectangle\ has\ a\ position.\n\ Rectangles\ do\ not\ overlap.\n\ Every\ rectangle\ has\ a\ state\:\ on\ or\ off.\n\ When\ the\ canvas\ paints,\ rectangles\ are\ colored\ by\ their\ state.\n
+comment1.params=model
+comment1.target=GameView(GameModel)
+comment2.params=g
+comment2.target=void\ paint(java.awt.Graphics)
+comment3.params=p
+comment3.target=void\ toggleCellAtPoint(java.awt.Point)
+numComments=4
